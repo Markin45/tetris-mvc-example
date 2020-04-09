@@ -1,5 +1,5 @@
-﻿
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -28,7 +28,7 @@ public class UnityTetrisController : MonoBehaviour
     IEnumerator Run()
     {
         for (;;) {
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.25f);
             if (!Controller.Step())
                 SceneManager.LoadScene("GameOver");
         }

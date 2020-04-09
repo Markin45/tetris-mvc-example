@@ -1,4 +1,4 @@
-﻿
+
 public interface ITetrisModel
 {
     int Width { get; }

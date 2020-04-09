@@ -1,4 +1,4 @@
-﻿
+
 public interface ITetrisController
 {
     void MoveFigureLeft();

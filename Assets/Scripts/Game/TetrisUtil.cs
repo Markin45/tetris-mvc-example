@@ -1,5 +1,5 @@
-﻿
-public static class TetrisUtil
+
+public class TetrisUtil
 {
     public static void SpawnFigure(ITetrisModel model, IFigureFactory figureFactory)
     {
